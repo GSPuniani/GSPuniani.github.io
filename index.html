@@ -137,38 +137,66 @@
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Deep Learning Research Project</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                My Senior Capstone Project at Fresno State, "Exploring the Role of Activation Functions 
+                in Deep Learning", was an investigation of activation functions in deep neural networks. 
+                Typically, activation functions are overlooked when designing and modifying neural network models, 
+                but we want to better understand how they can affect the performance of neural networks. Initially, we 
+                ran experiments with image classification tasks, in which we tested five different activation functions 
+                (ReLU, Swish, Mish, TAct, and mTAct) on a variety of models in addition to tuning several hyperparameters 
+                (number of epochs, learning rate, etc.). 
+              </p>
+              <p class="project-wrapper__text-info">
+                Unfortunately, there was no clear, definitive pattern between any particular activation function and 
+                accuracy of the model. After I graduated, we decided to pursue other tasks within deep learning to test these  
+                activation functions. As of now, I have two extensions to my capstone project: one involving Natural Language 
+                Processing (NLP), and one involving Graph Neural Networks (GNNs). The NLP extension tests the activation functions 
+                on a sentiment analysis task with movie review data, while the GNN extension tests the activation functions on a 
+                molecular odor classification task (in which the molecules are represented as graphs). We hope to find definitive 
+                patterns between activation functions and the accuracy of the model before we publish our results.
+              </p>
+              <p class="project-wrapper__text-info">
+                <i>Stack: Python, PyTorch, CUDA, Bash</i>
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="assets/docs/Final_Paper_Spring_2020.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
+                  >Spring 2020 Manuscript</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
+                <a href="https://github.com/GSPuniani/Activation-Functions-NLP" target="_blank" class="cta-btn text-color-main"
+                  >Source Code (NLP Extension)</a
+                >
+                <a href="https://github.com/GSPuniani/GNNs-Activation-Functions" target="_blank" class="cta-btn text-color-main"
+                  >Source Code (GNN Extension)</a
                 >
               </div>
             </div>
 
             <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/images/neural-network-gif.gif"
+                  class="img-fluid"
+                  alt="Deep Learning GIF"
+                />
+              </div>
+              <p><sub><sup>Image Source: https://analyticsindiamag.com/wp-content/uploads/2018/12/nural-network-banner.gif</sup></sub></p>
             </div>
+
+            <!-- <div class="project-wrapper__image">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/images/activation-functions.png"
+                  class="img-fluid"
+                  alt="Graphs of Activation Functions"
+                />
+              </div>
+              <p><sub><sup>Image Source: https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/60be4975a399c635d06ea853_hero_image_activation_func_dark.png</sup></sub></p>
+            </div> -->
           </article>
           <!-- /END Project -->
 
