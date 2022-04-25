@@ -75,15 +75,14 @@
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          CURRENTLY UNDER MAINTENANCE
-          <br />
-          Welcome! My name is <span class="text-color-main name">Gobind Puniani</span>
-          <br />
-          I'm interested in helping advance technology for the benefit of humanity.
+          Welcome! My name is <span class="text-color-main name">Gobind Puniani</span>.
         </h1>
-        <p class="hero-cta">
+        <h2 class="hero-title">
+          I'm interested in helping advance technology for the benefit of humanity.
+        </h2>
+        <!-- <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Learn more</a>
-        </p>
+        </p> -->
       </section>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
         <div class="scroll-down"></div
@@ -297,6 +296,9 @@
                 necessitatibus impedit repellendus vero sed ipsa eos beatae ab
                 sint saepe nostrum! Enim, perferendis.
               </p>
+              <p class="project-wrapper__text-info">
+                <i>Stack: Django, PostgreSQL, Python, HTML/CSS/JavaScript, Jinja2, Bootstrap, AWS EC2, AWS RDS</i>
+              </p>
               <div class="project-wrapper__text-btns">
                 <!-- <a
                   href="#"
@@ -335,6 +337,9 @@
                 necessitatibus impedit repellendus vero sed ipsa eos beatae ab
                 sint saepe nostrum! Enim, perferendis.
               </p>
+              <p class="project-wrapper__text-info">
+                <i>Stack: Django, PostgreSQL, Python, HTML/CSS/JavaScript, Jinja2, Bootstrap, AWS EC2, AWS RDS</i>
+              </p>
               <div class="project-wrapper__text-btns">
                 <!-- <a
                   href="#"
@@ -368,10 +373,17 @@
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Hot Potato Browser Game</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                This project is a simple two-player game of "Hot Potato" to be played in the browser. 
+                Two players connect to the site and input their email addresses to start the game. 
+                When the game starts, a timer (which is not visible to the players) begins counting down, 
+                and the two players pass the hot potato between each other as frequently as they desire. 
+                The object of the game is to <i>not</i> be in possession of the hot potato when the timer expires. 
+                When the game ends, an email is sent to the loser informing them that they lost. We use 
+                WebSockets rather than traditional HTTP requests to minimize latency and enhance the user experience.
+
+              </p>
+              <p class="project-wrapper__text-info">
+                <i>Stack: Node.js, Socket.io, HTML/CSS/JavaScript</i>
               </p>
               <div class="project-wrapper__text-btns">
                 <!-- <a
@@ -381,7 +393,7 @@
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
                 > -->
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a href="https://github.com/xScoopy/Hot_Potato" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
@@ -391,9 +403,9 @@
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/images/hot-potato.png"
                     class="img-fluid"
-                    alt="Project Image"
+                    alt="Hot Potato Game"
                   />
                 </div>
               </a>
