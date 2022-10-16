@@ -78,7 +78,7 @@
           Welcome! My name is <span class="text-color-main name">Gobind Puniani</span>.
         </h1>
         <h2 class="hero-title">
-          I'm interested in helping advance technology for the benefit of humanity.
+          I'm interested in accelerating technological advancement for the benefit of humanity.
         </h2>
         <!-- <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Learn more</a>
@@ -111,10 +111,10 @@
               Magna Cum Laude with University Honors from there in May 2020.
             </p>
             <p class="about-wrapper__info-text">
-              With this technical background, a Data Science internship, and several projects' worth of software 
-              experience, I am <i>actively seeking post-graduate internships and full-time employment opportunities</i> in 
-              <b>AI (Machine Learning, Deep Learning, Data Science), Software Engineering, Product Management, and 
-              Technical Program Management</b>. 
+              With this technical educational background, a Data Science internship, a Product Management internship, 
+              and several projects' worth of software development experience, 
+              I am <i>actively seeking full-time employment opportunities</i> in 
+              <b>AI (Machine Learning, Deep Learning, Data Science), Product Management, and Software Engineering</b>. 
             </p>
             <span class="about-wrapper__cta">
               <a href="assets/docs/Gobind_Puniani_Resume.pdf" class="cta-btn cta-btn--resume">View Resume</a>
@@ -207,7 +207,9 @@
                 and leaving soon on these streaming platforms, and all titles that are leaving soon include an expiration date. 
                 Each title page includes additional information, such as release year, synopsis, as well as a trailer link. 
                 Users can search across all platforms and use filters such as release year, runtime, and IMDb rating. Additionally, 
-                users can browse through Netflix's full global catalog of titles so that they can circumvent regional restrictions with a VPN.
+                users can browse through Netflix's full global catalog of titles so that they can circumvent regional restrictions with a VPN. 
+                This app uses a Flask backend and Bootstrap for the frontend. The data are sourced from multiple APIs (such as 
+                the IMDb API) as well as from online articles via web scraping with the Beautiful Soup library.
               </p>
               <p class="project-wrapper__text-info">
                 <i>Stack: Flask, Beautiful Soup, Python, HTML/CSS/JavaScript, Jinja2, Bootstrap</i>
@@ -232,6 +234,53 @@
                   src="./assets/images/StreamingGuide.png"
                   class="img-fluid"
                   alt="StreamingGuide Homepage"
+                />
+              </div>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Air3D</h3>
+              <p class="project-wrapper__text-info">
+                Air3D is a marketplace service that facilitates transactions between owners of 3D printers and clients
+                who pay these owners to create specified products. Owners can create profiles and list products that 
+                they are willing to print and sell, and renters can browse products offered and reach out to owners to 
+                negotiate terms for a product. Additionally, renters can also provide detailed descriptions for their 
+                own bespoke products that skilled owners could create for them. This service is designed to accelerate 
+                the consumer 3D printing revolution by allowing everyone to partake in the joy of 3D printing, even those 
+                without knowledge of creating CAD files or working with 3D printers. The entire backend is based on Flask, 
+                with Flask Login for authentication and SQLAlchemy for the database. User chat is 
+                implemented with web sockets for efficiency. Clients can pay owners seamlessly and securely 
+                via the Stripe API. Web forms (such as request forms) are implemented with WTForms and Jinja2, 
+                and the frontend was designed with Bootstrap.
+
+              </p>
+              <p class="project-wrapper__text-info">
+                <i>Stack: Flask, Flask Login, SQLAlchemy, WTForms, Socket.io, Stripe, Python, HTML/CSS/JavaScript, Jinja2, Bootstrap</i>
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="http://air3d.herokuapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/Kou-kun42/Air3D" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/images/Air3D-Home-Page.png"
+                  class="img-fluid"
+                  alt="Air3D Home Page"
                 />
               </div>
             </div>
